@@ -49,7 +49,6 @@ def func(x, y):
 
 func(Rx, Ry)
 
-# 출력
 if dp[Rx][Ry] < 0:
     print(-1)
 else:
