@@ -4,7 +4,6 @@
 import sys
 input = sys.stdin.readline
 
-# 입력
 N, M = map(int, input().split())
 arr = [input().rstrip() for _ in range(N)]
 dp = [[-1] * M for _ in range(N)]
