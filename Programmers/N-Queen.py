@@ -1,6 +1,6 @@
 # Level 2
 # DFS
-
+ 
 def dfs(queen, row, n):
     count = 0
     
