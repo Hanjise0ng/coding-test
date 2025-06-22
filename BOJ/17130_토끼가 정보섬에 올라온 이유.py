@@ -4,7 +4,6 @@
 import sys
 input = sys.stdin.readline
 
-# 입력
 N, M = map(int, input().split())
 arr = [input().rstrip() for _ in range(N)]
 dp = [[-1] * M for _ in range(N)]
@@ -50,7 +49,6 @@ def func(x, y):
 
 func(Rx, Ry)
 
-# 출력
 if dp[Rx][Ry] < 0:
     print(-1)
 else:
