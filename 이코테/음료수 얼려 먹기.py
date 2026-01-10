@@ -5,12 +5,15 @@ for i in range(n):
     graph.append(list(map(int, input())))
 
 def dfs(x, y):
+    # 주어진 범위
     if x <= -1 or x >= n or y <= -1 or y >= m:
         return False
     
+    # 현재 노드를 아직 방문하지 않은 경우
     if graph[x][y] == 0:
         graph[x][y] = 1
         
+        # 상, 하, 좌, 우의 위치도 모두 재귀적으로 호출
         dfs(x - 1, y)
         dfs(x, y - 1)
         dfs(x + 1, y)
@@ -26,3 +29,5 @@ for i in range(n):
             result += 1
 
 print(result)
+
+# level 1.5
