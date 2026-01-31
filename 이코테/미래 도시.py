@@ -16,10 +16,10 @@ for _ in range(m):
 x, k = map(int, input().split())
 
 # 점화식에 따라 플로이드 워셜 알고리즘 수행
-for k in range(1, n + 1):
+for i in range(1, n + 1):
     for a in range(1, n + 1):
         for b in range(1, n + 1):
-            graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])
+            graph[a][b] = min(graph[a][b], graph[a][i] + graph[i][b])
 
 # 수행된 결과 출력
 distance = graph[1][k] + graph[k][x]
