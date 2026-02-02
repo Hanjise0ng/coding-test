@@ -22,7 +22,7 @@ for i in range(1, v + 1):
     parent[i] = i
 
 # Union 연산을 각각 수행
-for i in range(e):
+for _ in range(e):
     a, b = map(int, input().split())
     union_parent(parent, a, b)
 
