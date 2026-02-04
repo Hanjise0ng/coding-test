@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/24060
-# sort sliver 3
+# sort silver 3
 
 def merge_sort(arr):
     if len(arr) <= 1:
