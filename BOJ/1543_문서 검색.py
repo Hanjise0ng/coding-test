@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/1543
-# greedy sliver 5
+# greedy silver 5
 
 doc = input()
 word = input()
