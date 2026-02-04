@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/10994
-# recursion sliver 4
+# recursion silver 4
 
 N = int(input())
 stars = [[' ' for _ in range(4 * N - 3)] for _ in range(4 * N - 3)]
