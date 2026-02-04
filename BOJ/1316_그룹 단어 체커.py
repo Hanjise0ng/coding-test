@@ -1,4 +1,4 @@
-# string sliver 5
+# string silver 5
 
 n = int(input())
 cnt = 0
