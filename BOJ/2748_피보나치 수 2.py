@@ -1,0 +1,16 @@
+# https://www.acmicpc.net/problem/2748\
+# dp bronze 1
+
+n = int(input())
+
+if (n == 0):
+    print(0)
+elif (n == 1):
+    print(1)
+else:
+    a, b = 0, 1
+
+    for _ in range(2, n + 1):
+        a, b = b, a + b
+        
+    print(b)
